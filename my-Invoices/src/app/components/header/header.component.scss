@@ -1,0 +1,15 @@
+.headerNav {
+  z-index: 1;
+  box-shadow: 0px 8px 6px -4px #e0e0e0;
+  background-color: #ffffff !important;
+}
+
+.bPageHeader, .bPageHeader td.left {
+  //background-image: url(/img/bgTop.gif);
+  background-position: left top;
+  background-repeat: repeat-x;
+}
+
+#AppBodyHeader {
+  margin-bottom: 30px;
+}
