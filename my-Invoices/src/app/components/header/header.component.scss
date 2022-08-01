@@ -13,3 +13,29 @@
 #AppBodyHeader {
   margin-bottom: 30px;
 }
+
+.user-details {
+  max-height: 1.5rem;
+  cursor: pointer;
+  margin: .313rem;
+}
+
+.navbar-nav > li > .dropdown-menu.show::before {
+  position: absolute;
+  top: -7px;
+  left: 9px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #fff;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+.dropdown-menu {
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+}
+
+
