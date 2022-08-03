@@ -1,0 +1,111 @@
+.container {
+  width: 960px !important;
+}
+
+.container {
+  padding: 0 4.5%;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100% !important;
+  }
+}
+
+.page-title h3 {
+  text-align: left;
+  font: normal normal 600 25px/30px Montserrat;
+  letter-spacing: 0px;
+  color: #273c88;
+  opacity: 1;
+}
+
+.offcLogo {
+  float: right;
+  margin-top: 3rem;
+  width: 144px;
+  height: 50px;
+  /* background: transparent url('../../../assets/logitech-2.png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}
+
+.packageOptions .btn-group .btn{
+  height: 40px;
+  line-height: 1.82857143;
+  background-color: white;
+  color:#C8187D;
+  border-color:#C8187D;/*changes:color#d10074; everywhere*/
+  border-radius: 0;/*changes:added*/
+  font: normal normal 500 12px/21px Montserrat;
+  letter-spacing: 0px;
+}
+
+.packageOptions .btn-primary.active {
+  background-color: #c8187d !important;
+  color: #ffffff !important;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: 0;
+}
+
+.pkgLabel {
+  text-align: justify;
+  font: normal normal 500 15px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #6E6E6E;
+  opacity: 1;
+  margin-bottom: 2rem;
+  width: 77%;
+}
+
+/* Modal */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+  z-index: 9;
+}
+
+.question-mark {
+  float: right;
+}
+
+.question-icon {
+  color: #c8187d;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #c8187d;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -2px;
+  right: 120%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #C8187D;
+}
+

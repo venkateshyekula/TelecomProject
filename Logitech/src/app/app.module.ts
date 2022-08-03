@@ -6,10 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { NgxSpinnerModule } from "ngx-spinner";
+import { PackageAndPricingComponent } from './components/package-and-pricing/package-and-pricing.component';
+import { PackageCarousalComponent } from './components/package-and-pricing/package-carousal/package-carousal.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PackageAndPricingComponent,
+    PackageCarousalComponent
   ],
   imports: [
     BrowserModule,
