@@ -1,4 +1,4 @@
-.contaner {
+.container {
   width: 960px !important;
 }
 
@@ -39,6 +39,32 @@
   opacity: 100%;/*changes*/
 }
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {outline: 0;}
+
+@media screen and (max-width: 415px) and (min-width: 360px) {
+  .media-carousel .carousel-control.left {
+    /*: -25px;
+    background-image: none;
+    height: 40px;
+    width: 40px;*//*changes*/
+    margin-top: 50%;
+    /*font-size: 50px;
+    color: grey;*//*changes*/
+  }
+
+   .container {
+  width: 100%!important;
+}
+
+  .media-carousel .carousel-control.right {
+    /* right: -25px !important;
+    background-image: none;
+    height: 40px;
+    width: 40px; *//*changes*/
+    margin-top: 50%;
+    /* font-size: 50px;
+    color: grey; */
+  }
+}
 
 @media screen and (max-width: 768px) and (min-width: 415px) {
   .media-carousel .carousel-control.left {
@@ -106,7 +132,7 @@
   padding: 0 !important;
 }
 
-.card-header {
+.card .card-header {
   text-align: center;
   /* background-color: #b3b3b3; *//*changes*/
   font-family: 'Montserrat', Helvetica, sans-serif;/*changes*/
@@ -127,6 +153,16 @@
   background: #AEAEAE 0% 0% no-repeat padding-box;
   border-radius: 2px;
   font: normal normal 500 14px/18px Montserrat;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.card-header {
+  margin: 4%;
+  padding: 2%;
+  background: #AEAEAE 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  font: 500 14px/18px Montserrat;
   letter-spacing: 0px;
   opacity: 1;
 }
@@ -195,4 +231,139 @@
 .card-footer .thumbnail {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.appInclude .glyphicon {
+  padding-right: 2%;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.appInclude .appIncludeLabel {
+  width: 50% !important;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+.servcInclude .servcIncludeLabel{
+  width: 50% !important;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+.rate {
+  /* color: #d10074; *//*changes below*/
+  font: normal normal 600 20px/13px Montserrat;
+  letter-spacing: 0px;
+  color: #C8187D;
+  text-align: center;
+  margin-top: 4rem;
+
+}
+.new-img{/*changes:added*/
+  width: 31px !important;
+  height: 17px !important;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+.package-detail-list{
+  padding-left: 20px;
+    margin-top: 1rem;
+}
+.package-detail-list li { /*changes:added*/
+  list-style-image: url('/../assets/images/Path 470.png');
+  margin-bottom: 2rem;
+}
+img.bullet_img {/*changes:not req bcz not using*/
+  width: 10px !important;
+  height: 5px !important;
+  margin-right: 0.5rem;
+
+}
+.card .buyNow {
+  width: 40%;
+  align-self: center;
+  padding: 3% 0% 3% 4%;;
+  /* background-color: #d10074; *//*changes*/
+  border-color: #C8187D;/*changes#d10074;*/
+  /* font-size: 16px; *//*changes below*/
+  background: #C8187D 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  font: normal normal 600 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.media-carousel .card .buyNow img{margin: 0% 5% 2% 5%;padding-right: 4%;width:10px;height:10px}
+
+.officeIcons {
+  height: auto !important;
+  width: 15px !important;/*changes:20 to 15px*/
+}
+
+.glyphicon {
+  width: 50% !important;
+  white-space: nowrap !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 0.9em;
+}
+
+.glyphicon.glyphicon-one-fine-dot:before {
+  content: "\25cf";
+  font-size: 1.0em;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.card:hover {
+  z-index: 2;
+  /* -webkit-transition: all 200ms ease-in;//changes:remove commented
+  -webkit-transform: scale(1.15);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.15);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.15);
+  transition: all 200ms ease-in;
+  transform: scale(1.15);
+  padding: 10px 0 20px 0;
+  background-color: #e4f6fa; */
+  background: #273C8824 0% 0% no-repeat padding-box;/*changes:added*/
+  box-shadow: 0px 2px 14px #5E5E5E24;
+  opacity: 1;
+}
+
+.card:hover .card-header {
+  background-color: #273C88;/*changes:#0099cc;*/
+  /* color: #FFFFFF; *//*changes*/
+}
+
+.card:hover .glyphicon.glyphicon-one-fine-dot:before {
+  color: #03a9f4;
+}
+
+.card:hover img {
+  filter: grayscale(0%);
+}
+
+.vat{
+  font-size:0.5em;
+}
+
+
+.container-fluid{
+  min-width: 100%;
+}
+
+@media screen and (max-width: 767px){
+  .card-header{
+    font: 12px/15px Montserrat;
+  }
+  .rate {font: 18px/22px Montserrat;}
 }
