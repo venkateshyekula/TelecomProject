@@ -8,7 +8,7 @@
   <div class="packageOptions">
     <p class="pkgLabel">Logitech is the first consumer electronics company to label its products with the amount of climate-warming carbon used to create them. Now, you can make a choice that’s informed not just by the price and features of your purchase, but by its environmental impact too.
     </p>
-    <span data-toggle="modal" data-target="#myQueryModal" class="question-mark tooltip">
+    <span data-toggle="modal" data-target="#exampleModal" class="question-mark tooltip">
       <i class="fa fa-question-circle-o fa-2x question-icon" aria-hidden="true"></i>
       <span class="tooltiptext">Have a Question?</span>
     </span>
@@ -28,63 +28,40 @@
     </div>
   </div>
 </div>
-<!-- <div id="myQueryModal" role="dialog" data-backdrop="static" data-keyboard="false" class="modal in"
-    style="display: block;">
-    <div class="modal-dialog modal-md">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title">Ask Your Question</h4>
+<div class="modal fade" id="exampleModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+        <h4 class="modal-title" id="exampleModalLabel">Ask Your Question</h4>
+      </div>
+      <div class="modal-body">
+        <form action="" class="form-horizontal">
+          <div class="form-group">
+            <div class="col-xs-12">
+              <label for="firstname">First Name </label>
+              <input type="text" id="firstname"  formcontrolname="firstname" class="form-control" required>
             </div>
-            <div class="modal-body">
-                <form novalidate="" class="form-horizontal ng-untouched ng-pristine ng-invalid">
-                    <div class="form-group">
-                        <div class="col-xs-12">
-                          <label for="firstname">First Name </label>
-                          <input type="text" id="firstname"  formcontrolname="firstname" value="" required=""
-                                class="form-control ng-untouched ng-pristine ng-invalid">
-                        </div>
-                        <div class="col-xs-12">
-                          <label for="lastname">Last Name </label>
-                          <input type="text" id="lastname"  formcontrolname="lastname" value="" required=""
-                                class="form-control ng-untouched ng-pristine ng-invalid">
-                        </div>
-                        <div class="col-xs-12">
-                          <label for="email">Email</label>
-                          <input type="text" id="email" formcontrolname="email" value=""
-                                required="" class="form-control ng-untouched ng-pristine ng-invalid">
-                        </div>
-                        <div class="col-xs-12">
-                          <label for="query">Query Description </label>
-                          <textarea id="query" formcontrolname="query"
-                                required="" class="form-control ng-untouched ng-pristine ng-invalid"></textarea>
-                        </div>
-                    </div>
-                    <!-- <divclass="form-group captcha">
-                        <divclass="col-xs-12">
-                            <app-robotic-captcha_nghost-wvq-c47="">
-                                <re-captcha _ngcontent-wvq-c47="" sitekey="6Lc_WcogAAAAAPUuFxMvpyfR9wDKHozLktO0o3IV"
-                                    id="ngrecaptcha-0">
-                                    <div style="width: 304px; height: 78px;">
-                                        <div><iframe title="reCAPTCHA"
-                                                src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lc_WcogAAAAAPUuFxMvpyfR9wDKHozLktO0o3IV&amp;co=aHR0cHM6Ly96YS5wcGQubXlsaXF1aWQudGVjaDo0NDM.&amp;hl=en&amp;v=gWN_U6xTIPevg0vuq7g1hct0&amp;size=normal&amp;cb=8x5v2b63n72f"
-                                                width="304" height="78" role="presentation" name="a-z1pu03xf6ypt"
-                                                frameborder="0" scrolling="no"
-                                                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"></iframe>
-                                        </div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
-                                            class="g-recaptcha-response"
-                                            style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-                                    </div><iframe style="display: none;"></iframe>
-                                </re-captcha>
-                            </app-robotic-captcha>
-                        </div>
-                    </div>
-                    <div class="form-group" style="margin-top: 2rem; text-align: center;">
-                      <button type="button" data-dismiss="modal" class="btn conf-btn cancel-btn">Cancel</button>
-                      <button type=" button" class="btn conf-btn" disabled="">Submit</button>
-                    </div>
-                </form>
+            <div class="col-xs-12">
+              <label for="lastname">Last Name </label>
+              <input type="text" id="lastname"  formcontrolname="lastname" class="form-control" required>
             </div>
-        </div>
+            <div class="col-xs-12">
+              <label for="email">Email</label>
+              <input type="text" id="email" formcontrolname="email" class="form-control" required>
+            </div>
+            <div class="col-xs-12">
+              <label for="query">Query Description </label>
+              <textarea id="query" formcontrolname="query" class="form-control" required></textarea>
+            </div>
+          </div>
+          <div class="form-group" style="margin-top: 2rem; text-align: center;">
+            <button type="button" data-dismiss="modal" class="btn conf-btn cancel-btn">Cancel</button>
+            <button type=" button" class="btn conf-btn" disabled="">Submit</button>
+          </div>
+        </form>
+      </div>
     </div>
-</div> -->
+  </div>
+</div>
 <app-package-carousal></app-package-carousal>

@@ -115,6 +115,11 @@
   color: #2d2d2d;
 }
 
+.fade {
+  transition: none !important;
+  opacity: 1;
+}
+
 label {
   font: 500 14px/18px Montserrat;
   letter-spacing: 0px;
