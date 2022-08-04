@@ -311,7 +311,7 @@ img.bullet_img {/*changes:not req bcz not using*/
 .glyphicon {
   width: 50% !important;
   white-space: nowrap !important;
-  font-family: Arial, Helvetica, sans-serif !important;
+  /* font-family: Arial, Helvetica, sans-serif !important; */
   font-size: 0.9em;
 }
 
@@ -319,7 +319,7 @@ img.bullet_img {/*changes:not req bcz not using*/
   content: "\25cf";
   font-size: 1.0em;
   color: #333333;
-  font-family: Arial, Helvetica, sans-serif !important;
+  /* font-family: Arial, Helvetica, sans-serif !important; */
 }
 
 .card:hover {
