@@ -17,27 +17,29 @@
   overflow: inherit !important;
 }
 /* Previous button  */
-.media-carousel .carousel-control.left {
+.carousel-control.left {
   left: -25px;
   background-image: none;
   height: 40px;
   width: 40px;
   margin-top: 15%;
   font-size: 50px;
-  color:#6E6E6E;/*changes grey*/
+  color:#c8187d;/*changes grey*/
   opacity: 100%;/*changes*/
 }
 /* Next button  */
-.media-carousel .carousel-control.right {
+.carousel-control.right {
   right: -25px !important;
   background-image: none;
   height: 40px;
   width: 40px;
   margin-top: 15%;
   font-size: 50px;
-  color: #6E6E6E;/*changes*/
+  color: #c8187d;/*changes*/
   opacity: 100%;/*changes*/
 }
+
+
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {outline: 0;}
 
 @media screen and (max-width: 415px) and (min-width: 360px) {
@@ -51,11 +53,11 @@
     color: grey;*//*changes*/
   }
 
-   .container {
+  .container {
   width: 100%!important;
 }
 
-  .media-carousel .carousel-control.right {
+.media-carousel .carousel-control.right {
     /* right: -25px !important;
     background-image: none;
     height: 40px;
@@ -256,7 +258,7 @@
   /* color: #d10074; *//*changes below*/
   font: normal normal 600 20px/13px Montserrat;
   letter-spacing: 0px;
-  color: #C8187D;
+  color: #C8187d;
   text-align: center;
   margin-top: 4rem;
 
@@ -287,9 +289,9 @@ img.bullet_img {/*changes:not req bcz not using*/
   align-self: center;
   padding: 3% 0% 3% 4%;;
   /* background-color: #d10074; *//*changes*/
-  border-color: #C8187D;/*changes#d10074;*/
+  border-color: #C8187d;/*changes#d10074;*/
   /* font-size: 16px; *//*changes below*/
-  background: #C8187D 0% 0% no-repeat padding-box;
+  background: #C8187d 0% 0% no-repeat padding-box;
   border-radius: 2px;
   opacity: 1;
   font: normal normal 600 12px/15px Montserrat;
@@ -301,7 +303,7 @@ img.bullet_img {/*changes:not req bcz not using*/
     margin-top: 2rem;
 }
 
-.media-carousel .card .buyNow img{margin: 0% 5% 2% 5%;padding-right: 4%;width:10px;height:10px}
+.media-carousel .card .buyNow img {margin: 0% 5% 2% 5%;padding-right: 4%;width:10px;height:10px}
 
 .officeIcons {
   height: auto !important;
@@ -315,7 +317,7 @@ img.bullet_img {/*changes:not req bcz not using*/
   font-size: 0.9em;
 }
 
-.glyphicon.glyphicon-one-fine-dot:before {
+.glyphicon .glyphicon-one-fine-dot:before {
   content: "\25cf";
   font-size: 1.0em;
   color: #333333;
