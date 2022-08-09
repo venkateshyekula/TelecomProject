@@ -9,12 +9,14 @@ import { AppComponent } from './app.component';
 import { NgxSpinnerModule } from "ngx-spinner";
 import { PackageAndPricingComponent } from './components/package-and-pricing/package-and-pricing.component';
 import { PackageCarousalComponent } from './components/package-and-pricing/package-carousal/package-carousal.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PackageAndPricingComponent,
-    PackageCarousalComponent
+    PackageCarousalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
