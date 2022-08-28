@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif
+}
+
+.container {
+  width: 960px !important;
+}
+
+.container {
+  padding: 0 4.5%;
+}
+
+.page-title h3 {
+  text-align: left;
+  font: normal normal 600 25px/30px Montserrat;
+  letter-spacing: 0px;
+  color: #273c88;
+  opacity: 1;
+}
+
+.offcLogo {
+  float: right;
+  margin-top: 3rem;
+  width: 144px;
+  height: 50px;
+  //background: transparent url(../../../assets/marshall-logo.png) 0% 0% no-repeat padding-box;
+}
+
+.pkgLabel {
+  text-align: justify;
+  font: normal normal normal 15px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #5E5E5E;
+  opacity: 1;
+  margin-bottom: 2rem;
+  width: 77%;
+}
+
+.packageOptions .btn-group .btn {
+  height: 40px;
+  line-height: 1.82857143;
+  background-color: white;
+  color: #c8187d;
+  border-color: #c8187d;
+  /*changes:color#d10074; everywhere*/
+  border-radius: 0;
+  /*changes:added*/
+  font: normal normal 500 12px/21px Montserrat;
+  letter-spacing: 0px;
+}
+
+.packageOptions .recommend.btn {
+  height: 40px;
+  line-height: 1.82857143;
+  background-color: white;
+  color: #c8187d;
+  border-color: #c8187d;
+  float: right;
+}
+
+.packageOptions .recommend.btn:hover {
+  background-color: #c8187d;
+  color: white;
+}
+
+.packageOptions .btn-primary .active {
+  background-color: #c8187d !important;
+  color: white !important;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: 0 !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100% !important;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+  .packageOptions .btn-group .btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+  /*changes:added*/
+  .offcLogo {
+    width: 99px;
+    /*changes:added*/
+    height: 34px;
+    /*changes:added*/
+    margin-top: 0;
+    /*changes:added*/
+    //background: transparent url('/../assets/images/Image 47/Image 48.png') 0% 0% no-repeat padding-box;
+    /*changes:added*/
+
+
+  }
+
+  .page-title h3 {
+    font: normal normal 500 18px/22px Montserrat;
+  }
+}
+
+@media screen and (max-width:539px) {
+
+  /*changes:added*/
+  .pkgLabel {
+    font: normal normal normal 13px/16px Montserrat !important;
+    width: unset !important;
+  }
+}

@@ -1,0 +1,273 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.media-carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel-inner {
+  overflow: inherit !important;
+}
+
+/* Previous button  */
+.media-carousel .carousel-control.left {
+  left: -12px;
+  background-image: none;
+  height: 40px;
+  width: 40px;
+  margin-top: 15%;
+  font-size: 50px;
+  color: #5E5E5E;
+}
+
+/* Next button  */
+.media-carousel .carousel-control.right {
+  right: -12px !important;
+  background-image: none;
+  height: 40px;
+  width: 40px;
+  margin-top: 15%;
+  font-size: 50px;
+  color: #5E5E5E;
+}
+
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+
+.media-carousel .carousel-indicators .active {
+  background: #333333;
+}
+
+.media-carousel img {
+  width: 250px;
+  height: 250px;
+  filter: grayscale(100%);
+}
+
+/* Card */
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  /* background-color: #e4f6fa;------------------------------------------------- */
+  background-color: #f2f2f2;
+  margin: 10px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardCol {
+  border-right: solid 1px;
+  border-color: #cccccc;
+}
+
+.card .card-header {
+  text-align: center;
+  /* background-color: #0099cc; ------------------------------------------------*/
+  background-color: #b3b3b3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  height: 50px;
+  padding-top: 12px;
+  /* color: #FFFFFF; ------------------------------------------------------------*/
+  color: #333333;
+}
+
+.card-header {
+  margin: 4%;
+  padding: 2%;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.card .card-body {
+  padding: 5%;
+  height: 350px;
+}
+
+.card .pkgContent {
+  min-height: 82%;
+}
+
+.card .card-body .appInclude,
+.card .card-body .servcInclude {
+  line-height: 2 !important;
+  margin-bottom: 5px;
+}
+
+.card .card-body .card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 200%;
+}
+
+.card .card-body .card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: inherit;
+  font-size: 85%;
+  margin-bottom: 0;
+  color: #adadad;
+}
+
+.card .card-body .appIncludeHeading,
+.card .card-body .servcIncludeHeading {
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+}
+
+.card .card-body .appInclude {
+  margin-bottom: 10px;
+}
+
+.card .card-footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 55px;
+  padding-top: 5px;
+  border-radius: 4px;
+}
+
+.card-footer .thumbnail {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.appInclude .glyphicon {
+  padding-right: 2%;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.appInclude .appIncludeLabel {
+  width: 50% !important;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+.card-body .rate {
+  color: #c8187d;
+}
+
+.card .buyNow {
+  width: 40%;
+  align-self: center;
+  padding: 10px 12px;
+  background-color: #c8187d;
+  border-color: #c8187d;
+  font-size: 16px;
+
+}
+
+.officeIcons {
+  height: auto !important;
+  width: 20px !important;
+}
+
+.glyphicon {
+  width: 50% !important;
+  white-space: nowrap !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 0.9em;
+}
+
+.glyphicon.glyphicon-one-fine-dot:before {
+  content: "\25cf";
+  font-size: 1.0em;
+  /* color:#03a9f4;-------------------------------------------------------- */
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* .card {
+  &:hover {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+    padding: 10px 0 20px 0;
+    background-color: #e4f6fa;
+
+    .card-header {
+
+      background-color: #0099cc;
+      color: #FFFFFF;
+    }
+
+    .glyphicon.glyphicon-one-fine-dot:before {
+      color: #03a9f4;
+    }
+
+    img {
+      filter: grayscale(0%);
+    }
+
+  }
+} */
+
+.card:hover {
+  z-index: 2;
+  /* -webkit-transition: all 200ms ease-in;//changes:remove commented
+  -webkit-transform: scale(1.15);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.15);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.15);
+  transition: all 200ms ease-in;
+  transform: scale(1.15);
+  padding: 10px 0 20px 0;
+  background-color: #e4f6fa; */
+  background: #273C8824 0% 0% no-repeat padding-box;
+  /*changes:added*/
+  box-shadow: 0px 2px 14px #5E5E5E24;
+  opacity: 1;
+}
+
+.card:hover .card-header {
+  background-color: #273C88;
+  /*changes:#0099cc;*/
+  /* color: #FFFFFF; */
+  /*changes*/
+}
+
+.card:hover .glyphicon.glyphicon-one-fine-dot:before {
+  color: #03a9f4;
+}
+
+.card:hover img {
+  filter: grayscale(0%);
+}
+
+.vat {
+  font-size: 0.5em;
+}
