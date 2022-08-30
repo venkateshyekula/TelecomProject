@@ -1,0 +1,151 @@
+{
+   "Microsoft 365": [
+      {
+         "PACKAGENAME": "Microsoft 365 Business Basic",
+         "PACKAGERATE": 92.5,
+         "PACKAGEDETAIL": "Chat, call, meet up to 300 attendees| Web and mobile versions of Office apps| 1 TB of cloud storage| Business-class email| Standard security| Anytime phone and web support",
+         "OFFICEAPPINCLUDED": "Outlook,Word,Excel,PowerPoint,OneDrive,Teams,Sharepoint,Exchange",
+         "SERVICESINCLUDED": "",
+         "PACKAGEID": 2,
+         "PACKAGE_CURRENCY": "R",
+         "ID": 2,
+         "DISCOUNT": 8,
+         "PRICEDESCRIPTION": "(Annual subscription�auto renews)| Price does not include VAT.",
+         "NEWPRODUCT": "N"
+      },
+      {
+         "PACKAGENAME": "Microsoft 365 Business Standard",
+         "PACKAGERATE": 192.8,
+         "PACKAGEDETAIL": "Desktop versions of Office apps with premium features| Easily host webinars| Attendee registration and reporting tools| Manage customer appointments",
+         "OFFICEAPPINCLUDED": "Outlook,Word,Excel,PowerPoint,OneDrive,Teams,Sharepoint,Exchange,Access,Publisher",
+         "SERVICESINCLUDED": "",
+         "PACKAGEID": 3,
+         "PACKAGE_CURRENCY": "R",
+         "ID": 3,
+         "DISCOUNT": 8,
+         "PRICEDESCRIPTION": "(Annual subscription�auto renews)| Price does not include VAT.",
+         "NEWPRODUCT": "N"
+      },
+      {
+         "PACKAGENAME": "Microsoft Teams Essentials",
+         "PACKAGERATE": 61.7,
+         "PACKAGEDETAIL": "Desktop versions of Office apps with premium features| 1 TB of cloud storage| Standard security| Anytime phone and web support",
+         "OFFICEAPPINCLUDED": "Outlook,Word,Excel,PowerPoint,OneDrive,Access,Publisher",
+         "SERVICESINCLUDED": "Exchange",
+         "PACKAGEID": 1,
+         "PACKAGE_CURRENCY": "R",
+         "ID": 1,
+         "DISCOUNT": 8,
+         "PRICEDESCRIPTION": "(Annual subscription�auto renews)| Price does not include VAT.",
+         "NEWPRODUCT": "Y"
+      },
+      {
+         "PACKAGENAME": "Microsoft 365 Business Premium",
+         "PACKAGERATE": 339.2,
+         "PACKAGEDETAIL": "Advanced security| Access and data control| Cyberthreat protection",
+         "OFFICEAPPINCLUDED": "Outlook,Word,Excel,PowerPoint,OneDrive,Teams,Sharepoint,Exchange,Access,Publisher,Azure,Intune",
+         "SERVICESINCLUDED": "",
+         "PACKAGEID": 4,
+         "PACKAGE_CURRENCY": "R",
+         "ID": 4,
+         "DISCOUNT": 8,
+         "PRICEDESCRIPTION": "(Annual subscription�auto renews)| Price does not include VAT.",
+         "NEWPRODUCT": "N"
+      }
+   ],
+   "Broadband": [
+      {
+         "PACKAGENAME": "Liquid Fibre - 10/10 Mbps",
+         "PACKAGERATE": 1300,
+         "PACKAGEDETAIL": "Up to 10Mbps upload and download speeds. Use a secure broadband fibre connection at branch level for internet and public cloud connection| Includes bandwidth on-demand with the dynamic bandwidth booster| Fiber is symmetrical and Ideal for branch and satellite offices| Superior fibre network and Single point of contact",
+         "OFFICEAPPINCLUDED": "",
+         "SERVICESINCLUDED": "",
+         "PACKAGEID": 5,
+         "PACKAGE_CURRENCY": "R",
+         "ID": 5,
+         "DISCOUNT": 8,
+         "PRICEDESCRIPTION": "(12 or 24 months contract)|(One time installation cost R1500)|Price does not include VAT.",
+         "NEWPRODUCT": "N"
+      },
+      {
+         "PACKAGENAME": "Liquid Fibre - 20/20 Mbps",
+         "PACKAGERATE": 1600,
+         "PACKAGEDETAIL": "Up to 20Mbps upload and download speeds. Use a secure broadband fibre connection at branch level for internet and public cloud connection| Includes bandwidth on-demand with the dynamic bandwidth booster| Fibre is symmetrical and Ideal for branch and satellite offices| Superior fiber network and Single point of contact",
+         "OFFICEAPPINCLUDED": "",
+         "SERVICESINCLUDED": "",
+         "PACKAGEID": 6,
+         "PACKAGE_CURRENCY": "R",
+         "ID": 6,
+         "DISCOUNT": 8,
+         "PRICEDESCRIPTION": "(12 or 24 months contract)|(One time installation cost R1500)|Price does not include VAT.",
+         "NEWPRODUCT": "N"
+      },
+      {
+         "PACKAGENAME": "Liquid Fibre - 30/30 Mbps",
+         "PACKAGERATE": 1900,
+         "PACKAGEDETAIL": "Up to 30Mbps upload and download speeds. Use a secure broadband fibre connection at branch level for internet and public cloud connection| Includes bandwidth on-demand with the dynamic bandwidth booster| Fiber is symmetrical and Ideal for branch and satellite offices| Superior fibre network and Single point of contact",
+         "OFFICEAPPINCLUDED": "",
+         "SERVICESINCLUDED": "",
+         "PACKAGEID": 7,
+         "PACKAGE_CURRENCY": "R",
+         "ID": 7,
+         "DISCOUNT": 8,
+         "PRICEDESCRIPTION": "(12 or 24 months contract)|(One time installation cost R1500)|Price does not include VAT.",
+         "NEWPRODUCT": "N"
+      },
+      {
+         "PACKAGENAME": "Liquid Fibre - 50/50 Mbps",
+         "PACKAGERATE": 2300,
+         "PACKAGEDETAIL": "Up to 50Mbps upload and download speeds. Use a secure broadband fibre connection at branch level for internet and public cloud connection| Includes bandwidth on-demand with the dynamic bandwidth booster| Fiber is symmetrical and Ideal for branch and satellite offices| Superior fibre network and Single point of contact",
+         "OFFICEAPPINCLUDED": "",
+         "SERVICESINCLUDED": "",
+         "PACKAGEID": 8,
+         "PACKAGE_CURRENCY": "R",
+         "ID": 8,
+         "DISCOUNT": 8,
+         "PRICEDESCRIPTION": "(12 or 24 months contract)|(One time installation cost R1500)|Price does not include VAT.",
+         "NEWPRODUCT": "N"
+      },
+      {
+         "PACKAGENAME": "Liquid Fibre - 100/100 Mbps",
+         "PACKAGERATE": 2800,
+         "PACKAGEDETAIL": "Up to 100Mbps upload and download speeds. Use a secure broadband fibre connection at branch level for internet and public cloud connection| Includes bandwidth on-demand with the dynamic bandwidth booster| Fiber is symmetrical and Ideal for branch and satellite offices| Superior fibre network and Single point of contact",
+         "OFFICEAPPINCLUDED": "",
+         "SERVICESINCLUDED": "",
+         "PACKAGEID": 9,
+         "PACKAGE_CURRENCY": "R",
+         "ID": 9,
+         "DISCOUNT": 8,
+         "PRICEDESCRIPTION": "(12 or 24 months contract)|(One time installation cost R1500)|Price does not include VAT.",
+         "NEWPRODUCT": "N"
+      }
+   ],
+   "Operator Connect": [
+      {
+         "PACKAGENAME": "OneVoice-Business",
+         "PACKAGERATE": 99,
+         "PACKAGEDETAIL": "Managed SBC and Local billing and support| Unlimited domestic calling plan on non-premium numbers| 8x5 Support and 24/7 Global Support| Custom Reporting Dashboard and SIP Service/?DID| Automated Simplified Deployment and Managed Service � end to end| Communication credits for international voice minutes*1",
+         "OFFICEAPPINCLUDED": "",
+         "SERVICESINCLUDED": "",
+         "PACKAGEID": 10,
+         "PACKAGE_CURRENCY": "R",
+         "ID": 10,
+         "DISCOUNT": 8,
+         "PRICEDESCRIPTION": "(Annual subscription�auto renews)| Price does not include VAT.",
+         "NEWPRODUCT": "N"
+      },
+      {
+         "PACKAGENAME": "OneVoice-Enterprise",
+         "PACKAGERATE": 199,
+         "PACKAGEDETAIL": "Phone System License| Managed SBC and Local billing and support| Unlimited domestic calling plan on non-premium numbers| 8x5 Support and 24/7 Global Support| Custom Reporting Dashboard and SIP Service/?DID | Automated Simplified Deployment and Managed Service � end to end| Communication credits for international voice minutes*1",
+         "OFFICEAPPINCLUDED": "",
+         "SERVICESINCLUDED": "",
+         "PACKAGEID": 11,
+         "PACKAGE_CURRENCY": "R",
+         "ID": 11,
+         "DISCOUNT": 8,
+         "PRICEDESCRIPTION": "(Annual subscription�auto renews)| Price does not include VAT.",
+         "NEWPRODUCT": "N"
+      }
+   ]
+}
