@@ -53,7 +53,7 @@ body {
   letter-spacing: 0px;
 }
 
-.packageOptions .recommend.btn {
+.packageOptions .recommend .btn {
   height: 40px;
   line-height: 1.82857143;
   background-color: white;
@@ -67,9 +67,9 @@ body {
   color: white;
 }
 
-.packageOptions .btn-primary .active {
+.packageOptions .btn-primary.active {
   background-color: #c8187d !important;
-  color: white !important;
+  color: #FFFFFF !important;
 }
 
 .btn:focus,
