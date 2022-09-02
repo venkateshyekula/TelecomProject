@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 .nopadding {
@@ -11,7 +13,8 @@ body {
   margin-bottom: 0;
   padding: 0 40px 30px 40px;
   margin-top: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  //font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 .carousel-inner {
@@ -72,11 +75,14 @@ body {
   word-wrap: break-word;
   background-clip: border-box;
   /* background-color: #e4f6fa;------------------------------------------------- */
-  background-color: #f2f2f2;
+  /* background-color: #F5F5F5; */
+  background: #EEEEEE 0% 0% no-repeat padding-box;
   margin: 10px;
   padding-bottom: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Montserrat', Helvetica, sans-serif;
   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  opacity: 1;
 }
 
 .cardCol {
@@ -87,25 +93,33 @@ body {
 .card .card-header {
   text-align: center;
   /* background-color: #0099cc; ------------------------------------------------*/
-  background-color: #b3b3b3;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3em;
-  height: 50px;
-  padding-top: 12px;
+  /* background-color: #b3b3b3; */
+  //background: #AEAEAE 0% 0% no-repeat padding-box;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  //font-size: 1.3em;
+  height: 38px;
+  padding-top: 10px;
   /* color: #FFFFFF; ------------------------------------------------------------*/
-  color: #333333;
+  //color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
 }
 
 .card-header {
-  margin: 4%;
+  margin: 3%;
   padding: 2%;
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif
+  background: #AEAEAE 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  font: 500 14px/18px Montserrat;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #FFFFFF;
 }
 
 .card .card-body {
-  padding: 5%;
-  height: 350px;
+  //padding: 5%;
+  height: 370px;
 }
 
 .card .pkgContent {
@@ -119,13 +133,15 @@ body {
 }
 
 .card .card-body .card-title {
-  font-family: Arial, Helvetica, sans-serif;
+  //font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
   text-align: center;
   font-size: 200%;
 }
 
 .card .card-body .card-text {
-  font-family: Arial, Helvetica, sans-serif;
+  //font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
   text-align: inherit;
   font-size: 85%;
   margin-bottom: 0;
@@ -135,7 +151,8 @@ body {
 .card .card-body .appIncludeHeading,
 .card .card-body .servcIncludeHeading {
   margin-bottom: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  //font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 1.1em;
 }
 
@@ -145,7 +162,8 @@ body {
 
 .card .card-footer {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  //font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 200%;
   margin-top: 0;
   margin-bottom: 0;
@@ -161,13 +179,15 @@ body {
 
 .appInclude .glyphicon {
   padding-right: 2%;
-  font-family: Arial, Helvetica, sans-serif !important;
+  //font-family: Arial, Helvetica, sans-serif !important;
+  font-family: 'Montserrat', Helvetica, sans-serif !important;
 }
 
 .appInclude .appIncludeLabel {
   width: 50% !important;
   float: left;
-  font-family: Arial, Helvetica, sans-serif;
+  //font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 0.9em;
 }
 
@@ -193,7 +213,8 @@ body {
 .glyphicon {
   width: 50% !important;
   white-space: nowrap !important;
-  font-family: Arial, Helvetica, sans-serif !important;
+  //font-family: Arial, Helvetica, sans-serif !important;
+  font-family: 'Montserrat', Helvetica, sans-serif !important;
   font-size: 0.9em;
 }
 
@@ -202,7 +223,8 @@ body {
   font-size: 1.0em;
   /* color:#03a9f4;-------------------------------------------------------- */
   color: #333333;
-  font-family: Arial, Helvetica, sans-serif !important;
+  //font-family: Arial, Helvetica, sans-serif !important;
+  font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 /* .card {
@@ -250,15 +272,15 @@ body {
   background-color: #e4f6fa; */
   background: #273C8824 0% 0% no-repeat padding-box;
   /*changes:added*/
-  //box-shadow: 0px 2px 14px #5E5E5E24;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: 0px 2px 14px #5E5E5E24;
+  //box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   opacity: 1;
 }
 
 .card:hover .card-header {
   background-color: #273C88;
   /*changes:#0099cc;*/
-  /* color: #FFFFFF; */
+  color: #FFFFFF;
   /*changes*/
 }
 
